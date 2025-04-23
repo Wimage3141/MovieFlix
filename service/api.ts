@@ -31,7 +31,7 @@ export const fetchMovie = async ( {query}:{query:string} ) => {
 //   method: 'GET',
 //   headers: {
 //     accept: 'application/json',
-//     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMGYxNzI3MjNhM2QyOTYwNDQyNjhlMjNmYzc4MmQwYiIsIm5iZiI6MTc0NTI4NjMzNy42Miwic3ViIjoiNjgwNmY0YzFiMDgyZGI2Mjc5ZWUwMTI2Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.IvOMYcOZLAb2LYEBv2ex3ZLP3oHLzbxswtJTVtUEnsE'
+//     Authorization: `Bearer ${process.env.EXPO_PUBLIC_MOVIE_API_KEY}`
 //   }
 // };
 
