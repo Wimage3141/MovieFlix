@@ -16,7 +16,7 @@ export const fetchMovie = async ( {query}:{query:string} ) => {
         method: 'GET',
         headers: TMDB_CONFIG.headers,
     });
-// new
+// new design lol
     if(!response.ok) {
         throw new Error("Failed to fetch movies", response.statusText);
     }
