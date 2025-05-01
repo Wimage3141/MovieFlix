@@ -6,6 +6,7 @@ import { icons } from '@/constants/icons'
 
 
 const TabIcon = ({focused, title, icon}: any) => {
+    // oh wait what
     if (focused) {
         return (
             <ImageBackground
